@@ -7,3 +7,12 @@
 html {
     font-family: "Roboto", sans-serif;
 }
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgb(243, 95, 31);
+    color: white;
+}
