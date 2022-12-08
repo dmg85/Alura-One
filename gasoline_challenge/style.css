@@ -4,16 +4,35 @@
     margin: 0;
 }
 
-html {
+body {
     font-family: "Roboto", sans-serif;
+    line-height: 1.2;
+    min-height: 100vh;
+    display: grid;
 }
 
-.container {
+.card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     width: 80%;
-    height: 15%;
-    margin: 0 auto;
+    max-width: 600px;
+    align-items: center;
+    display: flex;
+    place-items: center;
+    margin: 1em auto;
+    padding: 0 1em;
+    border-radius: 5px;
+    
 }
 
+.section-title {
+    background-color:rgb(188, 188, 188);
+    padding: 0.1em;
+    margin: 0.5em 0;
+}
+
+.sections {
+    padding: 1em;
+}
 .title {
     display: flex;
     align-items: center;
@@ -23,10 +42,27 @@ html {
     color: white;
 }
 
-.section-1 {
-    margin: 1rem 0;
+h1 {
+    margin: 0 1rem;
+    align-items: center;
+}
+.terminal {
+    background-color: rgb(41, 41, 41);
+    border-radius: 4px;
+    color: rgb(240, 244, 247);
+    padding: 0.5em;
 }
 
-.section-2 {
-    
+.fa-square-js {
+    color: rgb(243, 95, 31);
+    margin: 0.6em 0 0.6em;
+}
+
+.foot {
+    background-color: rgb(243, 95, 31);
+}
+
+.footer-icons {
+    display:inline;
+    align-items: center;
 }
