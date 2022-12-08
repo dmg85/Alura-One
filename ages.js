@@ -1,4 +1,4 @@
-// require function to include the mdn prompt module
+// required function to include the mdn prompt module
 const prompt = require("prompt-sync")();
 
 // Calculate the age difference with your sister
