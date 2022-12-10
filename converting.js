@@ -7,4 +7,4 @@ let draws = prompt("team draws: ");
 let points = wins * 3 + 1;
 
 
-console.log("The team has a total of " + points + " Points");
+console.log("The team has a total of " + points + " points");
